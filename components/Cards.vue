@@ -3,9 +3,6 @@
     <div class="spacer space--lg"></div>
     <article v-for="card in cardsData" :key="card.id" class="card space--sm" :id="card.id">
 <!--      Лучше использовать динамический id -->
-      <!--        <nuxt-img-->
-      <!--            src="test2.jpg"-->
-      <!--        />-->
 
       <img :src="card.src" alt="" class="card__img">
       <div class="card__content">
