@@ -1,30 +1,12 @@
 <script setup>
 
-
-
 </script>
-
 <template>
   <div>
-    <header style="height: 64px;">
-
-    </header>
-<!--    <header>-->
-<!--      <v-app>-->
-<!--        <v-app-bar :elevation="2" color="#FFF7EB">-->
-<!--          <template v-slot:prepend>-->
-<!--            <v-app-bar-nav-icon></v-app-bar-nav-icon>-->
-<!--          </template>-->
-
-<!--          <v-app-bar-title>Application Bar</v-app-bar-title>-->
-
-<!--        </v-app-bar>-->
-<!--      </v-app>-->
-
-<!--    </header>-->
+    <HeaderComponent/>
     <MainComponent/>
+    <FooterComponent/>
   </div>
-
 </template>
 
 <style lang="sass">
